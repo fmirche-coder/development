@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/layout/header/logo.html.twig' %}
+
+        {% block layout_header_logo_inner %}
+        
+        {{ parent() }}
+            <p>This is a subtitle</p>
+ <div>{{ 'swag.logo.sub' | trans}}</div>
+            
+        {% endblock %}
+   
